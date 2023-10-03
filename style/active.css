@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+
+}
+
+
+body,
+html {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.bigbox {
+    direction: ltr;
+    text-align: center;
+    color: green;
+    display: flex;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 380px;
+    align-items: center;
+    justify-content: start;
+    border-radius: 30px;
+
+
+    font-family: 'HankenGrotesk';
+
+}
+
+
+
+.left {
+    display: flex;
+    background: rgb(37, 98, 201);
+    background: linear-gradient(180deg, rgba(37, 98, 201, 1) 32%, rgba(94, 47, 212, 1) 73%);
+    flex-wrap: wrap;
+    width: 280px;
+    height: inherit;
+
+    border-radius: 30px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#circle {
+    display: flex;
+    border-radius: 50%;
+    flex-direction: column;
+    background: rgb(25, 66, 135);
+    background: linear-gradient(0deg, rgba(25, 66, 135, 1) 32%, rgba(58, 28, 134, 1) 73%);
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#ret {
+    font-size: 20px;
+    color: #dbd8e3;
+    font-weight: bold;
+}
+
+#bignum {
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+#smallnum {
+    color: #dbd8e3;
+}
+
+#sub-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#great {
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+#compliment {
+    color: #dbd8e3;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 270px;
+    height: inherit;
+
+}
+
+#r_head {
+    text-align: right;
+    margin-right: 90px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+#stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#stat>span {
+    display: flex;
+    margin-top: 10px;
+    height: 45px;
+    width: 210px;
+    align-items: center;
+    justify-content: left;
+    border-radius: 10px;
+
+}
+
+.click {
+    margin-top: 30px;
+    display: flex;
+    border-radius: 25px;
+    background: rgb(37, 98, 201);
+    background: linear-gradient(180deg, rgba(37, 98, 201, 1) 32%, rgba(94, 47, 212, 1) 73%);
+    height: 45px;
+    width: 210px;
+    text-align: center;
+    color: #dbd8e3;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 0px;
+
+}
+
+.click:hover {
+    cursor: pointer;
+}
+
+.click:active {
+    background-color: gray;
+}
+
+#stat>span>#icon {
+    margin-left: 10px;
+}
+
+#stat>span>#num>#num_1 {
+    margin-left: 30px;
+    margin-right: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+#stat>span>#num>#num_2 {
+    color: gray;
+}
+
+#stat>span>#word {
+    margin-left: 6px;
+    width: 70px;
+}
+
+#red {
+    background-color: #ffe8e8;
+}
+
+#red>#icon {
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/images/icon-reaction.svg');
+    background-size: cover;
+}
+
+#red>#word {
+    color: red;
+}
+
+#yellow {
+    background-color: #fffde8;
+}
+
+#yellow>#icon {
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/images/icon-memory.svg');
+    background-size: cover;
+}
+
+#yellow>#word {
+    color: #ffc52e;
+}
+
+#green {
+    background-color: #f1ffe8;
+}
+
+#green>#icon {
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/images/icon-verbal.svg');
+    background-size: cover;
+}
+
+#green>#word {
+    color: green;
+}
+
+
+#blue {
+    background-color: #e8ecff;
+}
+
+#blue>#icon {
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/images/icon-visual.svg');
+    background-size: cover;
+}
+
+#blue>#word {
+    color: blue
+}
